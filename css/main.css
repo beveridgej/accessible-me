@@ -14,6 +14,10 @@ h6 {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
 }
 
+p{
+  font-size: 16px;
+}
+
 .container {
   max-width: 1080px;
   margin: 0 auto;
@@ -21,7 +25,12 @@ h6 {
 }
 
 img {
-  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1rem;
+  width: 40rem;
+  height: 30rem;
 }
 
 .main-nav ul {
@@ -44,6 +53,18 @@ img {
   font-size: 1.25rem;
 }
 
+.owner{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 1rem;
+  border: 2px solid #0493b7;
+  border-radius: 1rem;
+}
+
+.main-content{
+  padding-bottom: 2rem;
+}
+
 address {
   display:block;
   font-style: normal;
@@ -57,6 +78,7 @@ form textarea {
   width: 100%;
   margin-bottom: 1rem;
   padding: .5rem 1rem;
+  border-radius: 1rem;
 }
 
 form textarea {
@@ -81,7 +103,15 @@ input[type=text] {
   border: none;
   background-color: #0493b7;
   color: white;
+  
 } 
+
+input::placeholder {
+  font-weight: bold;
+  color: white;
+}
+
+
 
 .site-footer {
   padding: 2rem 0;
