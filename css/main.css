@@ -58,7 +58,7 @@ img {
   cursor: pointer;
   outline: none;
   color: #fff;
-  background-color:#0493b7 ;
+  background-color:#035468;
   border: none;
   border-radius: 20px;
   box-shadow: 0 6px #999;
@@ -78,7 +78,7 @@ a.current:visited{
   display: grid;
   grid-template-columns: repeat(2,1fr);
   gap: 1rem;
-  border: 2px solid #0493b7;
+  border: 2px solid #035468;
   border-radius: 1rem;
 }
 
@@ -94,7 +94,7 @@ address {
 form input,
 form textarea {
   display: block;
- background-color:#0493b7 ;
+ background-color:#035468;
  color: white;
   width: 100%;
   margin-bottom: 1rem;
@@ -122,7 +122,7 @@ form button {
   text-decoration: none;
   outline: none;
   color: #fff;
-  background-color:#0493b7 ;
+  background-color:#035468;
   border: none;
   border-radius: 15px;
   box-shadow: 0 6px #999;
@@ -138,7 +138,7 @@ input[type=text] {
   margin: 8px 0;
   box-sizing: border-box;
   border: none;
-  background-color: #0493b7;
+  background-color: #035468;
 } 
 
 input::placeholder {
