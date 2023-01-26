@@ -3,6 +3,8 @@ body {
   background-color: white;
   margin: 0;
   padding: 0;
+ 
+
 }
 
 h1,
@@ -31,12 +33,14 @@ p{
   position: static;
   width: auto;
   height: auto;
+  outline-color: red;
 }
 
 .container {
   max-width: 1080px;
   margin: 0 auto;
   padding: 0 1rem;
+  
 }
 
 img {
