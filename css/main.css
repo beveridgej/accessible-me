@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: white;
+  background-color: lightcyan;
   margin: 0;
   padding: 0;
  
@@ -14,6 +14,7 @@ h4,
 h5,
 h6 {
   font-family: 'Stick No Bills', 'Roboto', Helvetica, sans-serif;
+  color: rgb(189, 85, 0);
 }
 
 p{
@@ -44,7 +45,7 @@ p{
 }
 
 img {
-  display: block;
+  display:block;
   margin-left: auto;
   margin-right: auto;
   border-radius: 1rem;
@@ -170,4 +171,5 @@ input::placeholder {
 
 .site-footer {
   padding: 2rem 0;
+
 }
